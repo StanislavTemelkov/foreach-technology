@@ -53,7 +53,7 @@ const NavbarMain = () => {
       >
         <Container>
           <Navbar.Brand href="/" className={styles.logo}>
-            Miritus
+            FOREACH TECHNOLOGY
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

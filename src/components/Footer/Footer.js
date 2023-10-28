@@ -11,10 +11,9 @@ const Footer = () =>{
                 <div className="container" >
                     <div className="row">
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
-                            <p className={styles.logo}>Miritus</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
-                            <p className={styles.text}>Lorem ipsum dolor sit amet</p>
+                            <p className={styles.logo}>FOREACH TECHNOLOGY</p>
+                            <p className={styles.text}>Foreach Technology is a dynamic and innovative startup software company that's shaping the future of technology</p>
+                            <p className={styles.text}>Our passion is to create software solutions that empower businesses and individuals to thrive in the digital age</p>
                             <div className={styles.social_logo}>
                                 <img src={fb} alt="fb" className={styles.img}/>
                                 <img src={linkdin} alt="in" className={styles.img}/>
@@ -24,23 +23,23 @@ const Footer = () =>{
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Services</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>500 Veliko Tarnovo, Dimitar Naydenov 127</p>
+                            <p className={styles.text}>stanislav.temelkov@hotmail.com</p>
+                            <p className={styles.text}>(+359) 988 71 6362</p>
 
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Head Office</p>
-                            <p className={styles.text}>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                            <p className={styles.text}>deanna.curtis@example.com</p>
-                            <p className={styles.text}>(671) 555-0110</p>
+                            <p className={styles.text}>500 Veliko Tarnovo, Dimitar Naydenov 127</p>
+                            <p className={styles.text}>stanislav.temelkov@hotmail.com</p>
+                            <p className={styles.text}>(+359) 988 71 6362</p>
                         </div>
 
                         <div className={`col-lg-3 col-sm-6 ${styles.contain}`}>
                             <p className={styles.head}>Opening Hour</p>
-                            <p className={styles.text}>Mon - Sat : 8:00 - 17:00</p>
-                            <p className={styles.text}>Sun : Closed</p>
+                            <p className={styles.text}>Mon - Fri : 8:00 - 17:00</p>
+                            <p className={styles.text}>Sat - Sun : Closed</p>
 
                         </div>
                     </div>
@@ -50,7 +49,7 @@ const Footer = () =>{
 
 
             <div style={{backgroundColor: '#2b2b2b', borderTop: 'solid 1px #707070'}}>
-                    <p className={styles.bottom}>Copyright © 2020. All right reserved</p>
+                    <p className={styles.bottom}>Copyright © 2023 All right reserved. FOREACH TECHNOLOGY LTD.</p>
             </div>
         </>
     )
